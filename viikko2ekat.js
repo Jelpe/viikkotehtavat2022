@@ -94,6 +94,12 @@ function kaannaTeksti() {
   else if (kieli == 'ruotsi') {
     document.getElementById('t5').innerHTML = "Hej Världen!";
   }
+  else if (kieli == 'ranska') {
+    document.getElementById('t5').innerHTML = "Bonjour le monde!"
+  }
+  else if (kieli == 'saksa') {
+    document.getElementById('t5').innerHTML = "Hallo Welt!"
+  }
   else {
     document.getElementById('t5').innerHTML = "Hola Mundo!";
   }
