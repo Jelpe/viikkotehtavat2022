@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Viikon 2 Ensimmäiset tehtävät!</title>
+    <link rel="stylesheet" href="tyyli.css">
+    <script type="text/javascript" src="viikko2ekat.js">
+
+    </script>
+  </head>
+  <body>
+    <section id = "yksi">
+
+      <h1>Tehtävä 1</h1>
+    <p>Anna kolme lukua niin ohjelma järjestää ne pienimmästä suurimpaan!</p>
+    <form class="" action="index.html" method="post">
+      <p>Numero 1: <input type="text" id="eka" value=""></p>
+      <p>Numero 2: <input type="text" id="toka" value=""></p>
+      <p>Numero 3: <input type="text" id="kolmas" value=""></p>
+      <button type="button" name="button" onclick="jarjesta()">Järjestä</button>
+    </form>
+    <p id="t1"></p>
+    </section>
+
+    <section id = "kaksi">
+
+    <h1>Tehtävä 2</h1>
+    <form class="" action="index.html" method="post">
+    <p>Anna 5 lukua niin ohjelma etsii niistä suurimman!</p>
+      <p>Luku 1: <input type="text" id="luku1" value=""></p>
+      <p>Luku 2: <input type="text" id="luku2" value=""></p>
+      <p>Luku 3: <input type="text" id="luku3" value=""></p>
+      <p>Luku 4: <input type="text" id="luku4" value=""></p>
+      <p>Luku 5: <input type="text" id="luku5" value=""></p>
+      <button type="button" name="button" onclick="etsiSuurin()">Etsi suurin</button>
+      <p id="t2"</p>
+    </form>
+    </section>
+
+    <section id = "kolme">
+
+    <h1>Tehtävä 3</h1>
+    <p>Onko antamasi luku pariton vai parillinen?</p>
+    <p>Luku: <input type="text" id="luku" value=""></p>
+    <button type="button" name="button" onclick="onkoLuku()">Tarkista</button>
+    <p id="t3"></p>
+    </section>
+
+    <section id = "nelja">
+
+    <h1>Tehtävä 4</h1>
+    <p>Mitä kulkuneuvoa saat ajaa?</p>
+      <form class="" action="index.html" method="post">
+        <p>Ikäsi: <input type="text" id="text" value=""></p>
+        <button type="button" name="button" onclick="onkoIkää()">Tulos</button>
+      </form>
+      <p id="t4"></p>
+      </section>
+
+      <section id = "viisi">
+
+    <h1>Tehtävä 5</h1>
+    <p>Valitse kieli jolle "Hei Maailma!" käännetään!</p>
+    <select class="" id="kieli">
+      <option value="englanti">Englanti</option>
+      <option value="ruotsi">Ruotsi</option>
+      <option value="espanja">Espanja</option>
+    </select>
+    <button type="button" id="button" onclick="kaannaTeksti()">Käännä</button>
+    <p id="t5"></p>
+    </section>
+</html>

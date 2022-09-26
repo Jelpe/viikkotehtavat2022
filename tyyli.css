@@ -1,0 +1,47 @@
+section
+{
+  margin: 20px;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+#yksi
+{
+  background-color: red;
+  padding: 15px;
+  border: solid;
+  border-width: thick;
+}
+#kaksi
+{
+  background-color: green;
+  padding: 15px;
+  border: solid;
+  border-width: thick;
+}
+#kolme
+{
+  background-color: orange;
+  padding: 15px;
+  border: solid;
+  border-width: thick;
+}
+#nelja
+{
+  background-color: yellow;
+  padding: 15px;
+  border: solid;
+  border-width: thick;
+}
+#viisi
+{
+  background-color: lightblue;
+  padding: 15px;
+  border: solid;
+  border-width: thick;
+}
+
+p, h1, button, select
+{
+  margin-left: 20px;
+}
