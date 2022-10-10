@@ -1,0 +1,114 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Viikon 3 ekat tehtävät!</title>
+    <link rel="stylesheet" href="viikko3ekat.css">
+    <script type="text/javascript" src="viikko3ekat.js">
+
+    </script>
+  </head>
+  <body>
+    <section id="yksi">
+
+    <h1>Tehtävä 1</h1>
+    <form class="" action="index.html" method="post">
+      <p>Anna tähän parillinen luku: <input type="text" id="pluku" value=""></p>
+      <button type="button" name="button" onclick="näytäParilliset()">Näytä</button>
+      <div id="parilliset"></div>
+    </form>
+    </section>
+
+    <section id="kaksi">
+
+    <h1>Tehtävä 2</h1>
+    <p>Tämä ohjelma muuttaa antamasi sanan salasanaksi laittaen kirjaimen Ö
+      joka kirjaimen väliin!</p>
+    <form class="" action="index.html" method="post">
+      <p>Anna sana: <input type="text" id="ksana" value=""></p>
+      <button type="button" name="button" onclick="muutaSana()">Luo salasana!</button>
+            <div id="salis"></div>
+    </form>
+    </section>
+
+    <section id="kolme">
+
+    <h1>Tehtävä 3</h1>
+    <p>Tämä ohjelma tarkistaa onko kirjoittamassasi sanassa "ö" kirjainta!</p>
+    <p>Anna sana: <input type="text" id="tsana" value=""></p>
+    <button type="button" name="button" onclick="onkoÖ()">Tarkista</button>
+    <div id="vastaus"></div>
+    </section>
+
+    <section id="nelja">
+
+    <h1>Tehtävä 4</h1>
+      <form class="" action="index.html" method="post">
+        <p>Anna luku, josta lasketaan kertoma: <input type="text" id="kertoma" value=""></p>
+        <button type="button" name="button" onclick="kertomaT()">Laske kertoma</button>
+            <div id="annakertoma"></div>
+      </form>
+      </section>
+
+      <section id="viisi">
+    <h1>Tehtävä 5</h1>
+    <p>Tämä ohjelma tulostaa näytölle luvut 1-100 siten,
+       että jos luku on 3:lla jaollinen,
+       tulostetaan hip ja viidellä jaollinen tulostetaan heijaa ja
+       jos sekä viidellä että kolmella jaollinen, tulostetaan hipheijaa</p>
+    <button type="button" id="button" onclick="hipHeijaa()">Tulosta luvut!</button>
+    <div id="luvut"></div>
+    </section>
+
+    <section id="kuusi">
+
+  <h1>Tehtävä 6</h1>
+    <p>Paina nappia niin ohjelma laskee 10 ensimmäistä numeroa!</p>
+  <button type="button" id="seitseman" onclick="ekatKymmenen()">Paina tästä!</button>
+  <div id="10lukua"></div>
+  </section>
+
+  <section id="seiska">
+<h1>Tehtävä 7</h1>
+  <p>Paina nappia niin ohjelma laskee 1-10 numerot yhteen!</p>
+<button type="button" id="button" onclick="yhteen()">Laske yhteen</button>
+<div id="luvutYhteen"></div>
+</section>
+
+  <section id="kasi">
+<h1>Tehtävä 8</h1>
+  <p>Tämä ohjelma laskee annettujen lukujen potenssin</p>
+  <p>Korotettava luku: <input type="text" id="kor" value=""> </p>
+  <p>potenssi luku: <input type="text" id="pot" value=""> </p>
+<button type="button" id="button" onclick="korPot()">Laske</button>
+<div id="potenssi"></div>
+</section>
+
+  <section id="ysi">
+<h1>Tehtävä 9</h1>
+  <p>Tämä ohjelma etsii luvuista suurimman ja pienimmän</p>
+  <p>1. luku: <input type="text" id="taulukko[0]" value=""> </p>
+  <p>2. luku: <input type="text" id="taulukko[1]" value=""> </p>
+  <p>3. luku: <input type="text" id="taulukko[2]" value=""> </p>
+  <p>4. luku: <input type="text" id="taulukko[3]" value=""> </p>
+  <p>5. luku: <input type="text" id="taulukko[4]" value=""> </p>
+  <button type="button" id="button" onclick="suurinPienin()">Etsi pienin ja suurin</button>
+  <div id="suurPien"></div>
+  </section>
+
+  <section id="kymppi">
+<h1>Tehtävä 10</h1>
+  <p>Tällä ohjelmalla voit muokata antamastasi sanasta salasanan!</p>
+  <p>Anna muokattava sana:  <input type="text" id="salasana" value="">
+<button type="button" id="button" onclick="arvoSalis()">Muunna salasanaksi</button>
+<div id="uusisalis"></div>
+</section>
+
+  <section id="yksitoista">
+<h1>Tehtävä 11</h1>
+  <p>Anna pienempi numero:  <input type="text" id="pnro" value=""></p>
+  <p>Anna isompi numero:  <input type="text" id="inro" value=""></p>
+<button type="button" id="button" onclick="näytäLuvut()">Näytä luvut sekä summat</button>
+<div id="parillisettomat"></div>
+</section>
+  </body>
+</html>
